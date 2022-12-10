@@ -42,6 +42,8 @@ const changeModalState = (state) => {
     });
   }
 
+  state.type = windowType[0].value;
+
   bindActionToElements('click', windowShape, 'shape');
   bindActionToElements('input', windowWidth, 'width');
   bindActionToElements('input', windowHeight, 'height');
