@@ -49,7 +49,7 @@ const timer = (id, deadline) => {
       }
     }
     
-    updateClock();
+    updateClock(); // вызов функции для сброса заданных в верстке значений
   };
 
   setClock(id, deadline);
